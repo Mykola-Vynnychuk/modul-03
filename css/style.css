@@ -203,6 +203,7 @@ img {
 
 .subheader-tree {
   font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
   font-size: 14px;
   text-transform: uppercase;
   color: #b4ad9e;
