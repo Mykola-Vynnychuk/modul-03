@@ -212,7 +212,11 @@ img {
   margin: 0px auto;
   width: 164px;
   height: 60px;
+  border: 1px solid #626262;
+  background-color: #ffffff;
   font-size: 20px;
+  color: #626262;
+  cursor: pointer;
 }
 
 
