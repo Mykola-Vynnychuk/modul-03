@@ -143,23 +143,18 @@ template {
   font-family: "Playfair Display", serif;
 }
 .nav-unorder-list {
-  max-width: 584px;
+  max-width: 900px;
+  text-align: center;
   margin: 0px auto;
   padding: 75px 0px;
 }
-.nav-unorder-list li {
+.nav-item {
   display: inline-block;
   text-transform: uppercase;
   list-style: none;
 }
-.lifestyle-reference {
-  margin-right: 120px;
-}
-.photodiary-reference {
+.nav-item:nth-last-of-type(n+2) {
   margin-right: 100px;
-}
-.music-reference {
-  margin-right: 95px;
 }
 .nav-unorder-list li a {
   font-size: 14px;
